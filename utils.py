@@ -85,14 +85,15 @@ def describe_hypergraph(hypergraph):
 	print(f"Number of biomolecular condensates (hyperedges): {hypergraph.num_edges}")
 
 	print(f"\nHypergraph incidence density: {100*xgi.incidence_density(hypergraph):.2f}%")
-	clust_coeffs = xgi.clustering_coefficient(hypergraph)
+	H_int = xgi.convert_labels_to_integers(hypergraph)
+	clust_coeffs = xgi.local_clustering_coefficient(H_int)
 	print(f"Global clustering coefficient: {100*np.mean(list(clust_coeffs.values())):.2f}%")
 
 	if connected:
 		print('The hypergraph is connected.')
-		print(f"The graph is composed of {xgi.number_connected_components(hypergraph)} connected components.")
 	else:
 		print('The hypergraph is NOT connected.')
+		print(f"The graph is composed of {xgi.number_connected_components(hypergraph)} connected components.")
 
 
 def nodf_rows_cols(mat):
