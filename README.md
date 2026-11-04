@@ -41,9 +41,6 @@ investigating-condensates-hypergraphs/
 │
 ├── preprocessing.py              # Data preprocessing and hypergraph construction
 ├── utils.py                      # Analysis, statistical and visualization utilities
-│
-├── LICENSE
-└── README.md
 ```
 
 ## Analysis workflow
@@ -111,13 +108,10 @@ The implemented null models include:
     cardinalities while randomly assigning proteins.
 -   Node-degree-preserving randomization: preserves protein hyperdegrees
     while randomizing condensate assignments.
--   Fill-only randomization: provides a less constrained baseline.
 -   Fixed-row/fixed-column incidence-matrix randomization: preserves
     both protein hyperdegrees and condensate cardinalities for
     nestedness comparisons.
 
-The analysis also considers alternative structural scenarios, including
-the exclusion of the largest condensate.
 
 ### 3. Connectivity and protein sequence features
 
@@ -134,81 +128,13 @@ Two complementary connectivity measures are considered:
     given protein in the one-mode projection of the protein--condensate
     bipartite network.
 
-These measures are compared against protein sequence features,
-including:
-
-**Intrinsic disorder** - Mean IUPred score. - Standard deviation of
-IUPred scores. - Number of disordered regions at different thresholds. -
-Maximum disordered-region length.
-
-**Sequence composition** - Sticker fraction (Y, F, R residues). -
-IDR-related residue fraction (S, G, Q, N residues). - Reactive residue
-fraction (Y, F, R, S, G, Q, N residues).
+These measures are compared against protein sequence features, including **Intrinsic disorder** and **Sequence composition**.
 
 Associations are evaluated using both Pearson and Spearman correlation
-coefficients.
-
-To assess the robustness of the results, multiple analytical scenarios
-are considered:
-
-1.  All proteins.
-2.  Excluding proteins with hyperdegree equal to one.
-3.  Excluding the largest condensate and recomputing the connectivity
-    measures.
-
-Multiple-testing correction is applied within each scenario. The
+coefficients. Multiple-testing correction is applied within each scenario. The
 implementation supports Benjamini--Hochberg, Holm and Bonferroni
 corrections.
 
-## Code organization
-
-  -----------------------------------------------------------------------
-  File                                Description
-  ----------------------------------- -----------------------------------
-  `preprocessing.py`                  Loading, cleaning and integrating
-                                      protein and condensate datasets;
-                                      hypergraph construction.
-
-  `utils.py`                          Hypergraph statistics, nestedness
-                                      calculations, null-model
-                                      procedures, correlation analyses
-                                      and visualization utilities.
-
-  `dataset_creation.ipynb`            Dataset preparation and
-                                      preprocessing workflow.
-
-  `hypergraph_analysis.ipynb`         Structural characterization of the
-                                      protein--condensate hypergraph.
-
-  `connectivity_analysis.ipynb`       Statistical analysis of
-                                      connectivity and protein sequence
-                                      features.
-  -----------------------------------------------------------------------
-
-## Requirements
-
-The project is implemented in Python and uses the following main
-libraries:
-
--   [NumPy](https://numpy.org/)
--   [Pandas](https://pandas.pydata.org/)
--   [SciPy](https://scipy.org/)
--   [NetworkX](https://networkx.org/)
--   [XGI](https://xgi.readthedocs.io/)
--   [HypergraphX](https://github.com/HGX-Team/hypergraphx)
--   [Matplotlib](https://matplotlib.org/)
--   [Seaborn](https://seaborn.pydata.org/)
--   [Powerlaw](https://github.com/jeffalstott/powerlaw)
--   [Jupyter Notebook](https://jupyter.org/)
-
-The repository also includes nestedness-related utilities under
-`nestedness/`.
-
-Install the main dependencies with:
-
-``` bash
-pip install numpy pandas scipy networkx xgi hypergraphx matplotlib seaborn powerlaw jupyter
-```
 
 ## Getting started
 
@@ -216,46 +142,17 @@ Clone the repository:
 
 ``` bash
 git clone https://github.com/gheb02/investigating-condensates-hypergraphs.git
-
-cd investigating-condensates-hypergraphs
 ```
 
-Install the dependencies and launch Jupyter:
+Install the dependencies:
 
 ``` bash
-pip install numpy pandas scipy networkx xgi hypergraphx matplotlib seaborn powerlaw jupyter
-
-jupyter notebook
+pip install -r requirements.txt
 ```
 
-For a complete execution of the analysis, follow the notebooks in this
-order:
 
-1.  `dataset_creation.ipynb` -- prepare the datasets.
-2.  `hypergraph_analysis.ipynb` -- construct and characterize the
-    hypergraph.
-3.  `connectivity_analysis.ipynb` -- investigate the relationship
-    between connectivity and protein sequence features.
-
-**Data availability:** The source datasets are not included in this
-repository. The notebooks expect the original data files and
-intermediate datasets to be available in the corresponding paths
-referenced in their configuration cells. In particular, the analysis
-uses the CD-Code dataset and associated protein--condensate mapping
-files.
-
-## Reproducibility
-
-Randomized analyses use a fixed random seed (`42`) to improve
-reproducibility.
-
-The number of random realizations used in null-model analyses can be
-adjusted through the corresponding configuration parameters in the
-notebooks.
-
-Some analyses may require substantial computation depending on the
-number of random realizations and the size of the incidence matrix.
+**Data availability:** The source datasets are available at [CD-Code (CrowDsourcing COndensate Database and Encyclopedia)](https://cd-code.org/)
 
 ## License
 
-This project is distributed under the [MIT License](LICENSE).
+This project is distributed under the MIT License.
