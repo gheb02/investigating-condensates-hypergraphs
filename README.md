@@ -35,6 +35,8 @@ investigating-condensates-hypergraphs/
 ├── nestedness/
 │   └── ...                       # Nestedness-related utilities
 │
+|── CD-Code Dump 17_12_25/01/     # Raw data from the CD-Code dump
+├── data/                         # Clean data used for the analysis
 ├── dataset_creation.ipynb        # Data preprocessing and dataset construction
 ├── hypergraph_analysis.ipynb     # Hypergraph topology and structural analysis
 ├── connectivity_analysis.ipynb   # Connectivity and protein sequence features
