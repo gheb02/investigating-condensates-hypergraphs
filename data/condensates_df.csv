@@ -1,0 +1,108 @@
+uid,condensate_name,species_name,confidence_score,condensate_type,proteins,DNA,RNA,C-mods,condensatopathy
+009021FA,focal adhesion (FA) condensate,Homo sapiens,4,biomolecular,3,No,No,No,No
+03D56D03,Tau Condensate,Homo sapiens,3,biomolecular,5,No,Yes,Yes,Yes
+03E7CE7B,NEDD4 condensates,Homo sapiens,5,biomolecular,3,No,No,No,No
+08386919,Dense Fibrillar Component,Homo sapiens,4,biomolecular,8,Yes,Yes,No,No
+936CAA69,Slit diaphragm condensate,Homo sapiens,1,biomolecular,3,No,No,No,No
+1070A586,Synthetic Condensate 000045,Homo sapiens,3,synthetic,4,No,No,No,No
+1A0651A8,Synthetic Condensate 000370,Homo sapiens,1,synthetic,3,No,No,No,No
+1A0B17A6,cGAS foci,Homo sapiens,1,biomolecular,3,Yes,No,Yes,No
+1A18FFC4,Paraspeckle,Homo sapiens,1,biomolecular,71,No,Yes,Yes,Yes
+1C4BF022,Cytoplasmic bodies,Homo sapiens,4,biomolecular,3,No,No,No,No
+1CD3856C,Synthetic Condensate 000003,Homo sapiens,3,synthetic,3,No,No,No,No
+1DAEF59B,Pericentriolar matrix,Homo sapiens,1,biomolecular,4,No,No,No,No
+1EF72FBA,ERES,Homo sapiens,4,biomolecular,8,No,No,No,No
+2B1872D5,Balbiani body,Homo sapiens,4,biomolecular,3,No,No,No,No
+217616E8,cytoplasmic Virion Assembly Compartments (cVACs),Homo sapiens,4,infectious,4,Yes,Yes,No,No
+21EC1620,Inclusion body,Homo sapiens,4,infectious,4,No,No,No,No
+232F8A39,P-body,Homo sapiens,1,biomolecular,829,No,Yes,Yes,Yes
+24B72B50,Histone Locus Body,Homo sapiens,1,biomolecular,8,Yes,Yes,No,No
+278829DE,Chromatoid body,Homo sapiens,1,biomolecular,5,No,No,No,No
+2AFE1BD8,RdRp condensates,Homo sapiens,4,infectious,3,No,Yes,No,Yes
+318A8771,Synthetic Condensate 000319,Homo sapiens,1,synthetic,4,No,No,No,No
+3190BB68,inclusion body-associated granule (IBAG),Homo sapiens,4,infectious,7,No,Yes,No,No
+335D4357,SGF29 condensate,Homo sapiens,4,biomolecular,4,Yes,Yes,No,No
+3625CB60,SOSS-INTAC Condensate,Homo sapiens,2,biomolecular,5,Yes,Yes,No,No
+36896B46,T-cell signalosome,Homo sapiens,5,biomolecular,3,No,No,No,No
+373365D7,p62-dependent P-bodies (pd-PBs),Homo sapiens,4,biomolecular,6,No,Yes,No,No
+38D1B6BE,SARS-CoV-2 condensate,Homo sapiens,4,infectious,4,No,Yes,Yes,No
+38EC0B30,Transcriptional condensate,Homo sapiens,1,biomolecular,41,No,Yes,Yes,Yes
+3EAB04FE,Rapsn condensate,Homo sapiens,3,biomolecular,7,No,No,No,No
+437BC32B,TIFA-TRAF6 Condensate,Homo sapiens,4,biomolecular,7,No,No,No,No
+AB997901,Synthetic Condensate 000089,Homo sapiens,3,synthetic,4,No,No,No,No
+44FCF654,Synthetic Condensate 000363,Homo sapiens,1,synthetic,4,No,No,No,No
+462A97B5,Leucocyte nuclear body,Homo sapiens,0,biomolecular,21,No,No,No,No
+4749EA78,cBAF condensate,Homo sapiens,3,biomolecular,4,Yes,No,No,No
+48B2925C,Inclusion body,Homo sapiens,4,infectious,3,No,No,No,No
+4F6C34C9,senescence-associated nuclear proteasome foci,Homo sapiens,4,biomolecular,5,No,No,No,No
+507A56A0,Arsenite-induced Necrosome,Homo sapiens,4,biomolecular,3,No,Yes,No,No
+54D84D15,Viral factory,Homo sapiens,4,infectious,5,No,No,No,No
+550E224B,Proteasome condensate,Homo sapiens,1,biomolecular,4,No,No,Yes,No
+57A56005,ORF8/p62 condensate,Homo sapiens,4,infectious,4,No,No,No,No
+58F5AC37,Synthetic Condensate 000283,Homo sapiens,1,synthetic,4,No,No,No,No
+5965E019,mtRNA granule,Homo sapiens,1,biomolecular,42,No,Yes,No,No
+5D6181E1,Synthetic Condensate 000293,Homo sapiens,1,synthetic,3,No,No,No,No
+62EA6512,Sam68 nuclear body,Homo sapiens,1,biomolecular,15,No,Yes,No,No
+634C353E,BRD4 condensate,Homo sapiens,4,biomolecular,3,No,Yes,Yes,No
+67BDA0FF,Synthetic Condensate 000032,Homo sapiens,3,synthetic,3,No,No,No,No
+6D9DF426,Purinosome,Homo sapiens,4,biomolecular,4,No,No,No,No
+6F24707C,Cajal body,Homo sapiens,1,biomolecular,76,No,Yes,Yes,Yes
+6F9FB6EF,Cleavage body,Homo sapiens,4,biomolecular,3,No,No,No,No
+718A9EC3,P62 body,Homo sapiens,4,biomolecular,3,No,No,Yes,Yes
+76F9ED9B,Synthetic Condensate 000325,Homo sapiens,1,synthetic,4,No,No,No,No
+7ADEF05E,Synthetic Condensate 000039,Homo sapiens,0,synthetic,3,No,No,No,No
+7C2F7184,Transcription Elongation Condensate,Homo sapiens,4,biomolecular,8,Yes,Yes,No,No
+904EB3AA,CEBPZ condensates,Homo sapiens,3,biomolecular,3,No,No,Yes,Yes
+7FF4107C,Beta-Catenin Destruction Complex,Homo sapiens,4,biomolecular,6,No,No,No,No
+804901D1,Nuclear speckle,Homo sapiens,1,biomolecular,207,Yes,Yes,Yes,Yes
+80CC731F,RPSA-VIM-ENO Condensate,Homo sapiens,4,infectious,3,No,No,No,No
+80EB2636,Synthetic Condensate 000255,Homo sapiens,3,synthetic,3,No,No,No,No
+81D2A7B6,Nuclear stress body,Homo sapiens,1,biomolecular,11,No,Yes,Yes,No
+89D22CC2,Synthetic Condensate 000270,Homo sapiens,1,synthetic,4,No,No,No,No
+8BB8BA7F,Synthetic Condensate 000324,Homo sapiens,1,synthetic,5,No,No,No,No
+8C2F96ED,Centrosome,Homo sapiens,1,biomolecular,552,No,Yes,No,No
+8DB3D246,SCOTIN condensate,Homo sapiens,4,biomolecular,3,No,No,No,No
+91857CE7,Nucleolus,Homo sapiens,1,biomolecular,1413,No,Yes,Yes,Yes
+9355EE84,Synthetic Condensate 000292,Homo sapiens,1,synthetic,3,No,No,No,No
+9B5E283A,Synthetic Condensate 000373,Homo sapiens,1,synthetic,6,No,No,No,No
+9DBB3093,GW-body,Homo sapiens,0,biomolecular,3,No,Yes,No,No
+9F779CC8,Nuclear body,Homo sapiens,4,biomolecular,4,No,Yes,No,No
+A0DCDA94,DNA damage foci,Homo sapiens,1,biomolecular,22,Yes,Yes,Yes,Yes
+A3F53DF0,Synthetic Condensate 000272,Homo sapiens,1,synthetic,3,No,No,No,No
+A40D6D0A,DHX9 Stress Granules,Homo sapiens,4,biomolecular,12,No,Yes,No,No
+A58C613A,Synthetic Condensate 000080,Homo sapiens,3,synthetic,3,No,No,No,No
+AA62C26E,ORC1 bodies,Homo sapiens,1,infectious,5,Yes,No,No,Yes
+B3A0EABC,Midbody Granule,Homo sapiens,4,biomolecular,7,No,Yes,No,No
+AF287C13,Synthetic Condensate 000326,Homo sapiens,1,synthetic,5,No,No,No,No
+B15FE1AF,Hippo signalosome,Homo sapiens,4,biomolecular,7,No,No,No,No
+B3E5E6A1,viral replication compartment (VRC),Homo sapiens,4,infectious,5,Yes,No,No,No
+B4E97D43,α-synuclein condensates,Homo sapiens,4,biomolecular,3,No,No,Yes,Yes
+B5B9A610,PML body,Homo sapiens,2,biomolecular,551,Yes,No,Yes,Yes
+BB266630,TAZ Condensate,Homo sapiens,4,biomolecular,8,No,Yes,No,No
+BBD7F84D,PB-like Assembly,Homo sapiens,4,biomolecular,3,No,Yes,No,No
+BEB5E62D,Anisosome,Homo sapiens,4,biomolecular,6,No,No,Yes,No
+C05F05FE,Synthetic Condensate 000079,Homo sapiens,3,synthetic,3,No,No,No,No
+C4086E78,HIV core condensate,Homo sapiens,4,infectious,3,No,No,No,Yes
+CCFFAF5A,Junctional condensate,Homo sapiens,4,biomolecular,5,No,No,No,No
+CD2044AE,FXR-driven SARS-CoV-2 condensate,Homo sapiens,4,infectious,5,No,No,No,No
+D1F4711B,PARP1-DNA condensate,Homo sapiens,4,biomolecular,3,Yes,No,No,Yes
+D212AE19,Synthetic Condensate 000305,Homo sapiens,1,synthetic,3,No,No,No,No
+D3B9EAFD,Synthetic Condensate 000362,Homo sapiens,1,synthetic,3,No,No,No,No
+D6A53B8E,Nuclear pore complex,Homo sapiens,1,biomolecular,25,No,No,No,No
+D8E9712B,Neuronal RNP granule,Homo sapiens,1,biomolecular,16,No,Yes,Yes,No
+DEE660B4,Stress granule,Homo sapiens,1,biomolecular,1190,No,Yes,Yes,Yes
+E12AB6E0,53BP1 Mitotic Stress Body (MSBs),Homo sapiens,4,biomolecular,3,Yes,No,No,No
+E1879998,Synthetic Condensate 000375,Homo sapiens,1,synthetic,10,No,No,No,No
+E8F4C1F2,Sint speckle,Homo sapiens,1,biomolecular,4,No,No,No,No
+EA3337F5,+TIP,Homo sapiens,5,biomolecular,3,No,No,No,No
+EB3EADD3,Ubqln puncta,Homo sapiens,4,biomolecular,3,No,No,No,No
+ECAD3DEA,Ferritin-NCOA4 condensate,Homo sapiens,4,biomolecular,3,No,No,No,No
+F3208D05,Golgin condensate,Homo sapiens,1,biomolecular,7,No,No,No,No
+F345034F,Signaling cluster,Homo sapiens,1,biomolecular,23,No,No,No,No
+F5639AB0,Synthetic Condensate 000096,Homo sapiens,3,synthetic,3,No,No,No,No
+F5834E66,Synthetic Condensate 000310,Homo sapiens,1,synthetic,5,No,No,No,No
+F701F3BC,PcG body,Homo sapiens,1,biomolecular,14,No,No,No,No
+F85A2E29,IMP1 RNP granule,Homo sapiens,1,biomolecular,39,No,Yes,No,No
+FB4E32DD,Presynaptic clusters and postsynaptic densities,Homo sapiens,2,biomolecular,1366,No,No,No,No
+FE3CB95B,Synthetic Condensate 000371,Homo sapiens,1,synthetic,3,No,No,No,No
+FF4792F2,Row 1-specific tip complex condensates,Homo sapiens,4,biomolecular,4,No,No,No,No
